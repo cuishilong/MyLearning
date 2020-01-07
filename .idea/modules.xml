@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFlink/MyFlink.iml" filepath="$PROJECT_DIR$/MyFlink/MyFlink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyHadoop/MyHadoop.iml" filepath="$PROJECT_DIR$/MyHadoop/MyHadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyHbase/MyHbase.iml" filepath="$PROJECT_DIR$/MyHbase/MyHbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyKafka/MyKafka.iml" filepath="$PROJECT_DIR$/MyKafka/MyKafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyLearning.iml" filepath="$PROJECT_DIR$/MyLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySpark/MySpark.iml" filepath="$PROJECT_DIR$/MySpark/MySpark.iml" />
+    </modules>
+  </component>
+</project>
