@@ -6,18 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MyKafka" />
         <module name="MyHadoop" />
+        <module name="MyFlink" />
         <module name="MyHbase" />
         <module name="MySpark" />
-        <module name="MyFlink" />
+        <module name="MyScala" />
+        <module name="MyJava" />
+        <module name="MyKafka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MyFlink" target="1.5" />
       <module name="MyHadoop" target="1.5" />
       <module name="MyHbase" target="1.5" />
+      <module name="MyJava" target="1.5" />
       <module name="MyKafka" target="1.5" />
+      <module name="MyScala" target="1.5" />
       <module name="MySpark" target="1.5" />
     </bytecodeTargetLevel>
   </component>

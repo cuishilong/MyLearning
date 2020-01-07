@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFlink/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyHbase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScala/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLMultinomialLogisticRegressionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/regression/MLLinearRegressionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/read/SparkReadJdbcDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/write/SparkWriteJdbcDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -59,21 +74,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578372339475</updated>
-      <workItem from="1578372343316" duration="239000" />
+      <workItem from="1578372343316" duration="1360000" />
     </task>
+    <task id="LOCAL-00001" summary="cuishilong">
+      <created>1578372723232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578372723232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cuishilong" />
+    <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578372705062">
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578372957828">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578372705062" />
-    <state x="145" y="181" key="new project wizard" timestamp="1578372695346">
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578372957828" />
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578372723153">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578372695346" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578372723153" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578372725014">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578372725014" />
+    <state x="145" y="181" key="new project wizard" timestamp="1578373777701">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578373777701" />
   </component>
 </project>
