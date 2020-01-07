@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/MyHadoop/pom.xml" />
         <option value="$PROJECT_DIR$/MyScala/pom.xml" />
         <option value="$PROJECT_DIR$/MyJava/pom.xml" />
+        <option value="$PROJECT_DIR$/MyPython/pom.xml" />
+        <option value="$PROJECT_DIR$/MyHive/pom.xml" />
       </list>
     </option>
   </component>

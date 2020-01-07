@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyScala/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLMultinomialLogisticRegressionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/regression/MLLinearRegressionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/read/SparkReadJdbcDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/write/SparkWriteJdbcDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyHive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPython/MyPython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPython/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578372339475</updated>
-      <workItem from="1578372343316" duration="1360000" />
+      <workItem from="1578372343316" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578372723232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cuishilong">
+      <created>1578373806963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578373806963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,17 +101,17 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578372957828" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578372723153">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578373806869">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578372723153" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578372725014">
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578373806869" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578373808894">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578372725014" />
-    <state x="145" y="181" key="new project wizard" timestamp="1578373777701">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578373808894" />
+    <state x="145" y="181" key="new project wizard" timestamp="1578373884744">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578373777701" />
+    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578373884744" />
   </component>
 </project>
