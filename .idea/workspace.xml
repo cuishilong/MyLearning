@@ -2,215 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vlkan_flatbuffers_1_2_0_3f79e055.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_shims_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_kafka_0_10_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm6_shaded_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_scalap_2_11_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_7_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_shims_0_7_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyHive/MyHive.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataProducer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataProducer$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLTdIdfFeaturesDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/listener/MyStreamListener.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/stream/StreamWithKafkaOfCkp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/stream/StreamWithKafkaOfRedisOffsets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/StructStreamWithCkp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLMultinomialLogisticRegressionDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLMultinomialLogisticRegressionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/regression/MLLinearRegressionDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/regression/MLLinearRegressionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/read/SparkReadJdbcDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/read/SparkReadJdbcDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/write/SparkWriteJdbcDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/write/SparkWriteJdbcDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/listener/MyStreamListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfCkp$$anonfun$getLatestOffsetsFromRedis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfCkp$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfCkp$$anonfun$saveOffsets2Redis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfCkp$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfCkp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfRedisOffsets$$anonfun$getLatestOffsetsFromRedis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfRedisOffsets$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfRedisOffsets$$anonfun$saveOffsets2Redis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfRedisOffsets$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/stream/StreamWithKafkaOfRedisOffsets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/listener/MyStreamQueryListener.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/StructStreamWithKafkaOfCkp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/demos/StructStreamWithNc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/demos/WordCountWithNcByOutputMode.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/MyKafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/MyKafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/stream/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/StructStreamWithCkp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamWithCkp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Object" />
         <option value="Package Object" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -253,13 +57,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.structstream" />
       <recent name="stream.stream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructStreamWithCkp">
+  <component name="RunManager" selected="Application.WordCountWithNcByOutputMode">
     <configuration name="DataProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="producer.DataProducer" />
       <module name="MyKafka" />
@@ -273,13 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamWithKafkaOfRedisOffsets" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="stream.stream.StreamWithKafkaOfRedisOffsets" />
+    <configuration name="DateUtil" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="util.DateUtil" />
       <module name="MySpark" />
-      <option name="PROGRAM_PARAMETERS" value="localhost:9092 my_group_id test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.stream.*" />
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +92,37 @@
       </method>
     </configuration>
     <configuration name="StructStreamWithCkp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="stream.structstream.StructStreamWithCkp" />
+      <option name="MAIN_CLASS_NAME" value="stream.structstream.StructStreamWithKafkaOfCkp" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.structstream.*" />
+          <option name="PATTERN" value="stream.structstream.demos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructStreamWithNc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="stream.structstream.demos.StructStreamWithNc" />
+      <module name="MySpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.structstream.demos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountWithNcByOutputMode" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="stream.structstream.demos.WordCountWithNcByOutputMode" />
+      <module name="MySpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.structstream.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,13 +132,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.DataProducer" />
-      <item itemvalue="Application.StreamWithKafkaOfRedisOffsets" />
       <item itemvalue="Application.StructStreamWithCkp" />
+      <item itemvalue="Application.DateUtil" />
+      <item itemvalue="Application.StructStreamWithNc" />
+      <item itemvalue="Application.WordCountWithNcByOutputMode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountWithNcByOutputMode" />
+        <item itemvalue="Application.StructStreamWithNc" />
         <item itemvalue="Application.StructStreamWithCkp" />
-        <item itemvalue="Application.StreamWithKafkaOfRedisOffsets" />
+        <item itemvalue="Application.DateUtil" />
         <item itemvalue="Application.DataProducer" />
       </list>
     </recent_temporary>
@@ -335,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578372339475</updated>
-      <workItem from="1578372343316" duration="11749000" />
+      <workItem from="1578372343316" duration="12171000" />
+      <workItem from="1578443279463" duration="14576000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -365,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578374182897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cuishilong">
+      <created>1578406688441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578406688441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,10 +218,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578382395230">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578455464595">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578382395230" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578455464595" />
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578404678414">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -388,30 +230,34 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578382149340" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578374182816">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578406688284">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578374182816" />
-    <state width="1494" height="366" key="GridCell.Tab.0.bottom" timestamp="1578406575334">
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578406688284" />
+    <state width="1494" height="241" key="GridCell.Tab.0.bottom" timestamp="1578476594528">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="366" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578406575334" />
-    <state width="1494" height="366" key="GridCell.Tab.0.center" timestamp="1578406575333">
+    <state width="1494" height="241" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578476594528" />
+    <state width="1494" height="315" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578455584485" />
+    <state width="1494" height="241" key="GridCell.Tab.0.center" timestamp="1578476594527">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="366" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578406575333" />
-    <state width="1494" height="366" key="GridCell.Tab.0.left" timestamp="1578406575332">
+    <state width="1494" height="241" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578476594527" />
+    <state width="1494" height="315" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578455584483" />
+    <state width="1494" height="241" key="GridCell.Tab.0.left" timestamp="1578476594526">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="366" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578406575332" />
-    <state width="1494" height="366" key="GridCell.Tab.0.right" timestamp="1578406575333">
+    <state width="1494" height="241" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578476594526" />
+    <state width="1494" height="315" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578455584483" />
+    <state width="1494" height="241" key="GridCell.Tab.0.right" timestamp="1578476594527">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="366" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578406575333" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578374184831">
+    <state width="1494" height="241" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578476594527" />
+    <state width="1494" height="315" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578455584484" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578406690715">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578374184831" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578406690715" />
     <state x="145" y="181" key="new project wizard" timestamp="1578373884744">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
