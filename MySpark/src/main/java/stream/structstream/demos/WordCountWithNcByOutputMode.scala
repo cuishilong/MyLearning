@@ -15,6 +15,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
  * 3、append模式
  * 注：
  */
+
 object WordCountWithNcByOutputMode {
   val stream_tag = getClass.getSimpleName.replaceAll("\\$", "")
   val master = "local[*]"
