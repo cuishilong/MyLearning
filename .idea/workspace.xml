@@ -2,62 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_9_8_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_32_Final_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithKafkaDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithNcDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataWordProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/spark.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/MyFlink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/MyFlink.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataUserInfoProducer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/demos/WordCountWithNcByOutputMode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/demos/WordCountWithNcByOutputMode.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithKafkaDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithKafkaDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$3$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$3$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator14$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator15$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator15$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator22$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator22$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator23$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator23$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/demos/WordCountWithNcByOutputMode$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +70,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
+      <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -115,7 +87,7 @@
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlinkStreamWithKafkaDemo">
+  <component name="RunManager" selected="Application.ScalaUtil">
     <configuration name="DataWordProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="producer.DataWordProducer" />
       <module name="MyKafka" />
@@ -155,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructStreamWithNc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="stream.structstream.demos.StructStreamWithNc" />
+    <configuration name="MLBinomialLogisticRegressionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.classification.MLBinomialLogisticRegressionDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.structstream.demos.*" />
+          <option name="PATTERN" value="ml.classification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountWithNcByOutputMode" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="stream.structstream.demos.WordCountWithNcByOutputMode" />
+    <configuration name="ScalaUtil" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="util.ScalaUtil" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.structstream.demos.*" />
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StructStreamWithNc" />
-      <item itemvalue="Application.WordCountWithNcByOutputMode" />
       <item itemvalue="Application.FlinkStreamWithNcDemo" />
       <item itemvalue="Application.DataWordProducer" />
       <item itemvalue="Application.FlinkStreamWithKafkaDemo" />
+      <item itemvalue="Application.MLBinomialLogisticRegressionDemo" />
+      <item itemvalue="Application.ScalaUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScalaUtil" />
+        <item itemvalue="Application.MLBinomialLogisticRegressionDemo" />
         <item itemvalue="Application.DataWordProducer" />
         <item itemvalue="Application.FlinkStreamWithKafkaDemo" />
         <item itemvalue="Application.FlinkStreamWithNcDemo" />
-        <item itemvalue="Application.WordCountWithNcByOutputMode" />
-        <item itemvalue="Application.StructStreamWithNc" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +194,8 @@
       <updated>1578372339475</updated>
       <workItem from="1578372343316" duration="12171000" />
       <workItem from="1578443279463" duration="19259000" />
+      <workItem from="1578487354258" duration="643000" />
+      <workItem from="1578528208925" duration="3434000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -265,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578478048895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cuishilong">
+      <created>1578487386053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578487386053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +261,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1578483022043" />
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578455464595">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578529210491">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578455464595" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578529210491" />
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578404678414">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -300,34 +281,38 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578478048734">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578534255007">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578478048734" />
-    <state width="1494" height="174" key="GridCell.Tab.0.bottom" timestamp="1578487268624">
-      <screen x="0" y="23" width="1536" height="853" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578534255007" />
+    <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="174" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578487126298" />
+    <state x="100" y="100" width="1336" height="760" key="DiffContextDialog/0.0.1536.960@0.0.1536.960" timestamp="1578491193586" />
+    <state width="1494" height="347" key="GridCell.Tab.0.bottom" timestamp="1578534255071">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="347" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578534255071" />
     <state width="1494" height="174" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578487268624" />
-    <state width="1494" height="174" key="GridCell.Tab.0.center" timestamp="1578487268623">
-      <screen x="0" y="23" width="1536" height="853" />
-    </state>
-    <state width="1494" height="174" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578487126297" />
-    <state width="1494" height="174" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578487268623" />
-    <state width="1494" height="174" key="GridCell.Tab.0.left" timestamp="1578487268622">
-      <screen x="0" y="23" width="1536" height="853" />
-    </state>
-    <state width="1494" height="174" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578487126297" />
-    <state width="1494" height="174" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578487268622" />
-    <state width="1494" height="174" key="GridCell.Tab.0.right" timestamp="1578487268624">
-      <screen x="0" y="23" width="1536" height="853" />
-    </state>
-    <state width="1494" height="174" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578487126298" />
-    <state width="1494" height="174" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578487268624" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578478051495">
+    <state width="1494" height="347" key="GridCell.Tab.0.center" timestamp="1578534255070">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578478051495" />
+    <state width="1494" height="347" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578534255070" />
+    <state width="1494" height="174" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578487268623" />
+    <state width="1494" height="347" key="GridCell.Tab.0.left" timestamp="1578534255070">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="347" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578534255070" />
+    <state width="1494" height="174" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578487268622" />
+    <state width="1494" height="347" key="GridCell.Tab.0.right" timestamp="1578534255071">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="347" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578534255071" />
+    <state width="1494" height="174" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578487268624" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578487388355">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578487388355" />
     <state x="145" y="181" key="new project wizard" timestamp="1578373884744">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

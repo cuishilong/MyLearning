@@ -15,6 +15,7 @@ object FlinkStreamWithKafkaDemo {
     env.getConfig.setGlobalJobParameters(params)
     env.enableCheckpointing(5000,CheckpointingMode.EXACTLY_ONCE)
     val ckpConf = env.getCheckpointConfig
+    ckpConf.getCheckpointingMode
 
     val properties = new Properties()
     properties.setProperty("bootstrap.servers", "localhost:9092")
