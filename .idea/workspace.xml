@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_chuusai_shapeless_2_11_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_core_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_rwl_jtransforms_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_f2j_arpack_combined_all_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_11_0_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_11_0_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_2_11_0_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_macros_2_11_0_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_machinist_2_11_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_macro_compat_2_11_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/util/BeanUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/util/DateUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/util/PropUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/src/main/java/util/ScalaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/data/MLDataGen.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/data/MLPredictionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/model/MLPredictIfBirthByBinomialLogisticRegressionModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/stream/StreamPredictIfBirthForUserInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/structstream/StructStreamPredictIfBirthForUserInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/test/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/BeanUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/PropUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/sample_libsvm_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/sample_linear_regression_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/sample_multiclass_classification_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataUserInfoProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataUserInfoProducer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataUserInfoProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataUserInfoProducer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataUserInfoProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataUserInfoProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/classification/MLBinomialLogisticRegressionDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/DateUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/util/ScalaUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/classification/MLBinomialLogisticRegressionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/util/ScalaUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,6 +176,7 @@
       <workItem from="1578487354258" duration="643000" />
       <workItem from="1578528208925" duration="24970000" />
       <workItem from="1578619069833" duration="20514000" />
+      <workItem from="1578652489890" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -309,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578534849328</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cuishilong">
+      <created>1578652520528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578652520528</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578534849238">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578652520258">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578534849238" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578652520258" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -376,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578553551370" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578534850644">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578652523635">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578534850644" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578652523635" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
