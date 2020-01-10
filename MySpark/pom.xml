@@ -73,7 +73,12 @@
             <version>${jedis.version}</version>
         </dependency>
 
-
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_${scala.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
 
     </dependencies>
 
