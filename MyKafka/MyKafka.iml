@@ -11,7 +11,6 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.11.12" level="application" />
     <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.luben:zstd-jni:1.4.0-1" level="project" />
     <orderEntry type="library" name="Maven: org.lz4:lz4-java:1.6.0" level="project" />

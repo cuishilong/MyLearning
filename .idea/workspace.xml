@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLCountVectorizerExtractDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLWord2VectorExtractDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/MyFlink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/MyFlink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyKafka/MyKafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/MyKafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLTdIdfFeaturesDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLTdIdfExtractDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamPredictIfBirthForUserInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamPredictIfBirthForUserInfo$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +52,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MyKafka/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -68,13 +77,13 @@
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructStreamPredictIfBirthForUserInfo">
-    <configuration name="DataUserInfoProducer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="producer.DataUserInfoProducer" />
-      <module name="MyKafka" />
+  <component name="RunManager" selected="Application.MLCountVectorizerExtractDemo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.extract.Demo" />
+      <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="producer.*" />
+          <option name="PATTERN" value="ml.features.extract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLDataGen" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.data.MLDataGen" />
+    <configuration name="MLCountVectorizerExtractDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLCountVectorizerExtractDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.data.*" />
+          <option name="PATTERN" value="ml.features.extract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLPredictionDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.data.MLPredictionDemo" />
+    <configuration name="MLTdIdfExtractDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLTdIdfExtractDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.data.*" />
+          <option name="PATTERN" value="ml.features.extract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructStreamPredictIfBirthForUserInfo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="stream.structstream.StructStreamPredictIfBirthForUserInfo" />
+    <configuration name="MLWord2VectorDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLWord2VectorExtractDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.structstream.*" />
+          <option name="PATTERN" value="ml.features.extract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MLDataGen" />
       <item itemvalue="Application.MLPredictBirthByBinomialLogisticRegression" />
-      <item itemvalue="Application.DataUserInfoProducer" />
-      <item itemvalue="Application.StructStreamPredictIfBirthForUserInfo" />
-      <item itemvalue="Application.MLPredictionDemo" />
+      <item itemvalue="Application.MLTdIdfExtractDemo" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.MLWord2VectorDemo" />
+      <item itemvalue="Application.MLCountVectorizerExtractDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StructStreamPredictIfBirthForUserInfo" />
-        <item itemvalue="Application.DataUserInfoProducer" />
+        <item itemvalue="Application.MLCountVectorizerExtractDemo" />
+        <item itemvalue="Application.MLWord2VectorDemo" />
+        <item itemvalue="Application.MLTdIdfExtractDemo" />
         <item itemvalue="Application.MLPredictBirthByBinomialLogisticRegression" />
-        <item itemvalue="Application.MLPredictionDemo" />
-        <item itemvalue="Application.MLDataGen" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +190,9 @@
       <workItem from="1578652489890" duration="55000" />
       <workItem from="1578652565529" duration="202000" />
       <workItem from="1578702966748" duration="495000" />
+      <workItem from="1578827529558" duration="35000" />
+      <workItem from="1578893812242" duration="1502000" />
+      <workItem from="1578900190213" duration="2011000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -280,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578652590783</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cuishilong">
+      <created>1578827545329</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578827545330</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,62 +314,66 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1578575843062" />
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578636168562">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578901443313">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578636168562" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578901443313" />
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578404678414">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1578404678414" />
+    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1578900359792">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.960@0.0.1536.960" timestamp="1578900359792" />
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578478160728">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578478160728" />
-    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578478654830">
+    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578900052503">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1578478654830" />
+    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1578900052503" />
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578478657162">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578652590638">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578827545192">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578652590638" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578827545192" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog/0.0.1536.960@0.0.1536.960" timestamp="1578491193586" />
-    <state width="1494" height="414" key="GridCell.Tab.0.bottom" timestamp="1578648842539">
+    <state width="1494" height="361" key="GridCell.Tab.0.bottom" timestamp="1578902157147">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="414" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578648842539" />
+    <state width="1494" height="361" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578902157147" />
     <state width="1494" height="406" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578636892644" />
-    <state width="1494" height="414" key="GridCell.Tab.0.center" timestamp="1578648842538">
+    <state width="1494" height="361" key="GridCell.Tab.0.center" timestamp="1578902157145">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="414" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578648842538" />
+    <state width="1494" height="361" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578902157145" />
     <state width="1494" height="406" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578636892643" />
-    <state width="1494" height="414" key="GridCell.Tab.0.left" timestamp="1578648842537">
+    <state width="1494" height="361" key="GridCell.Tab.0.left" timestamp="1578902157144">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="414" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578648842537" />
+    <state width="1494" height="361" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578902157144" />
     <state width="1494" height="406" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578636892643" />
-    <state width="1494" height="414" key="GridCell.Tab.0.right" timestamp="1578648842538">
+    <state width="1494" height="361" key="GridCell.Tab.0.right" timestamp="1578902157146">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="414" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578648842538" />
+    <state width="1494" height="361" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578902157146" />
     <state width="1494" height="406" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578636892644" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1578553551370">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1578900351622">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578553551370" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578652593053">
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578900351622" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578827547682">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578652593053" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578827547682" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -359,9 +382,9 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578373884744" />
-    <state x="433" y="211" key="search.everywhere.popup" timestamp="1578565374683">
+    <state x="433" y="211" key="search.everywhere.popup" timestamp="1578901210876">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1578565374683" />
+    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1578901210876" />
   </component>
 </project>
