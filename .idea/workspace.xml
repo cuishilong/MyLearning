@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/clustering/MLLatentDirichletAllocationDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/sample_lda_libsvm_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/mock/MLDataGen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/mock/MLDataGen.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/resources/data/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/MLCollaborativeFilteringDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen$$anonfun$main$1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen$$anonfun$main$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLDataGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLPredictionDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/data/MLPredictionDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +196,7 @@
       <workItem from="1578827529558" duration="35000" />
       <workItem from="1578893812242" duration="1502000" />
       <workItem from="1578900190213" duration="5859000" />
-      <workItem from="1578966371059" duration="15085000" />
+      <workItem from="1578966371059" duration="15359000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -318,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578996715873</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cuishilong">
+      <created>1578999251803</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578999251803</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,10 +374,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578996715773">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578999251704">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578996715773" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578999251704" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -393,10 +406,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578967495456" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578996718000">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578999253918">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578996718000" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578999253918" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

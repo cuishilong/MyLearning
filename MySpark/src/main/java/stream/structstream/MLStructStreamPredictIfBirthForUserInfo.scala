@@ -8,7 +8,7 @@ import org.apache.spark.sql.streaming.{OutputMode, Trigger}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import util.BeanUtil
 
-object StructStreamPredictIfBirthForUserInfo {
+object MLStructStreamPredictIfBirthForUserInfo {
   val model_load_path = s"hdfs://localhost:9000/model/MLPredictIfBirthByBinomialLogisticRegressionModel"
   val stream_tag = getClass.getSimpleName.replaceAll("\\$", "")
   val master = "local[*]"
