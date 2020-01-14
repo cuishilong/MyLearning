@@ -8,7 +8,6 @@ import util.{DateUtil, PropUtil, ScalaUtil}
 
 object MLDataGen {
 
-
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
@@ -36,7 +35,6 @@ object MLDataGen {
       } else {
         UserInfoBean(id, 1, name, age, gender, degree, declare, dayOfWeek, dayOfMonth)
       }
-
       arr += bean
     }
 
