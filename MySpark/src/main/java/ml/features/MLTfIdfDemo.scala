@@ -1,15 +1,16 @@
-package ml.features.extract
+package ml.features
 
-import org.apache.spark.ml.feature.{Tokenizer, Word2Vec}
+import org.apache.spark.ml.feature.{HashingTF, IDF, Tokenizer}
 import org.apache.spark.sql.SparkSession
 
 /**
- * 使用Word2Vec方法抽取特征（适用于文本特征数据）
+ * 使用TF-IDF方法抽取特征（适用于文本特征数据）
  * 1、分词
- * 2、训练抽取模型
- * 3、从数据集抽取特征
+ * 2、对term进行hashing处理
+ * 3、训练IDF模型，并使用模型转换hashing处理过的数据集
+ * 注：根据业务具体情况，可直接使用步骤2的特征，也可使用步骤3的特征
  */
-object MLWord2VectorExtractDemo {
+object MLTfIdfDemo {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
@@ -36,19 +37,25 @@ object MLWord2VectorExtractDemo {
       .setInputCol("line")
       .setOutputCol("words")
 
-    val data_tokenizer = tokenizer.transform(data)
+    val words_tokenizer = tokenizer.transform(data)
 
-
-    val word2Vector = new Word2Vec()
+    val hashingTF = new HashingTF()
       .setInputCol("words")
+      .setOutputCol("word_tf")
+      .setNumFeatures(20)
+
+    val words_tf = hashingTF.transform(words_tokenizer)
+
+    val idf = new IDF()
+      .setInputCol("word_tf")
       .setOutputCol("features")
-      .setVectorSize(20)
 
-    val word_to_vector_model = word2Vector.fit(data_tokenizer)
+    val idf_model = idf.fit(words_tf)
 
-    word_to_vector_model.transform(data_tokenizer).show(false)
+    val res = idf_model.transform(words_tf)
+
+    res.show(false)
 
     spark.stop()
   }
-
 }

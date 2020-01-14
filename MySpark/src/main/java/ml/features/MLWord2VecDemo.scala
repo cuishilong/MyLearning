@@ -1,16 +1,15 @@
-package ml.features.extract
+package ml.features
 
-import org.apache.spark.ml.feature.{CountVectorizer, StopWordsRemover, Tokenizer}
+import org.apache.spark.ml.feature.{Tokenizer, Word2Vec}
 import org.apache.spark.sql.SparkSession
 
 /**
- * 使用CountVectorizer方法抽取特征（适用于文本特征数据）
+ * 使用Word2Vec方法抽取特征（适用于文本特征数据）
  * 1、分词
- * 2、去停用词
- * 3、训练抽取模型
- * 4、抽取特征
+ * 2、训练抽取模型
+ * 3、从数据集抽取特征
  */
-object MLCountVectorizerExtractDemo {
+object MLWord2VecDemo {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
@@ -39,18 +38,15 @@ object MLCountVectorizerExtractDemo {
 
     val data_tokenizer = tokenizer.transform(data)
 
-    val data_remover = new StopWordsRemover()
+
+    val word2Vector = new Word2Vec()
       .setInputCol("words")
-      .setOutputCol("words_remover")
-      .transform(data_tokenizer)
-
-    val count_vector = new CountVectorizer()
-      .setInputCol("words_remover")
       .setOutputCol("features")
+      .setVectorSize(20)
 
-    val count_vector_model = count_vector.fit(data_remover)
+    val word_to_vector_model = word2Vector.fit(data_tokenizer)
 
-    count_vector_model.transform(data_remover).show(false)
+    word_to_vector_model.transform(data_tokenizer).show(false)
 
     spark.stop()
   }

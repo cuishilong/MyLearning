@@ -2,16 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLCountVectorizerExtractDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLWord2VectorExtractDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/clustering/MLKMeanDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLBinarizerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLBuketizerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLCountVectorizerExtractDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLDiscreteCosineTransformDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLElementwiseProductDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLFeatureHasherDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLImputerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLIndexToStringDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLInteractionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLMaxAbsScaler.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLMinMaxScalerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLNGramDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLNormalizerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLOneHotEncoderEstimatorDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLPCADemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLPolynomialExpansionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLQuantileDiscretizerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLSqlTransformerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLStandardScalerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLStopWordsRemoverDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLStringIndexerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLTokenizerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLVectorAssemblerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLVectorIndexerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLVectorSizeHintDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/chinese/StandardTokenizerWithSpark.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/hanlp/tokenizer/Demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/hanlp/tokenizer/StandardTokenizerWithSpark.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySpark/src/main/resources/data/streaming_kmeans_data_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFlink/MyFlink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/MyFlink.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/MyKafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/MyKafka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MySpark/MySpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/MySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLTdIdfFeaturesDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLTdIdfExtractDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/ml/features/MLTdIdfFeaturesDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamPredictIfBirthForUserInfo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/StructStreamPredictIfBirthForUserInfo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLCountVectorizerExtractDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLRegexTokenizerDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLTdIdfExtractDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLTfIdfDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/extract/MLWord2VectorExtractDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/features/MLWord2VecDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +95,24 @@
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ml.features.chinese" />
+      <recent name="ml.features" />
       <recent name="producer" />
       <recent name="stream" />
       <recent name="stream.structstream" />
-      <recent name="stream.stream" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MLCountVectorizerExtractDemo">
+  <component name="RunManager" selected="Application.MLKMeanDemo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.features.extract.Demo" />
+      <option name="MAIN_CLASS_NAME" value="ml.hanlp.tokenizer.Demo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.features.extract.*" />
+          <option name="PATTERN" value="ml.hanlp.tokenizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLCountVectorizerExtractDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLCountVectorizerExtractDemo" />
+    <configuration name="MLImputerDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.MLImputerDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.features.extract.*" />
+          <option name="PATTERN" value="ml.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLPredictBirthByBinomialLogisticRegression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.model.MLPredictIfBirthByBinomialLogisticRegressionModel" />
+    <configuration name="MLKMeanDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.clustering.MLKMeanDemo" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.model.*" />
+          <option name="PATTERN" value="ml.clustering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLTdIdfExtractDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLTdIdfExtractDemo" />
+    <configuration name="StandardTokenizerWithSpark (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.features.chinese.StandardTokenizerWithSpark" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.features.extract.*" />
+          <option name="PATTERN" value="ml.features.chinese.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLWord2VectorDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.features.extract.MLWord2VectorExtractDemo" />
+    <configuration name="StandardTokenizerWithSpark" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ml.hanlp.tokenizer.StandardTokenizerWithSpark" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.features.extract.*" />
+          <option name="PATTERN" value="ml.hanlp.tokenizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MLPredictBirthByBinomialLogisticRegression" />
-      <item itemvalue="Application.MLTdIdfExtractDemo" />
+      <item itemvalue="Application.MLImputerDemo" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.MLWord2VectorDemo" />
-      <item itemvalue="Application.MLCountVectorizerExtractDemo" />
+      <item itemvalue="Application.StandardTokenizerWithSpark" />
+      <item itemvalue="Application.StandardTokenizerWithSpark (1)" />
+      <item itemvalue="Application.MLKMeanDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MLCountVectorizerExtractDemo" />
-        <item itemvalue="Application.MLWord2VectorDemo" />
-        <item itemvalue="Application.MLTdIdfExtractDemo" />
-        <item itemvalue="Application.MLPredictBirthByBinomialLogisticRegression" />
+        <item itemvalue="Application.MLKMeanDemo" />
+        <item itemvalue="Application.StandardTokenizerWithSpark (1)" />
+        <item itemvalue="Application.StandardTokenizerWithSpark" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.MLImputerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +221,8 @@
       <workItem from="1578702966748" duration="495000" />
       <workItem from="1578827529558" duration="35000" />
       <workItem from="1578893812242" duration="1502000" />
-      <workItem from="1578900190213" duration="2011000" />
+      <workItem from="1578900190213" duration="5859000" />
+      <workItem from="1578966371059" duration="13414000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -299,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578827545330</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="cuishilong">
+      <created>1578902324891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578902324891</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,14 +347,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="147" key="#Notifications" timestamp="1578983899141">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="147" key="#Notifications/0.0.1536.960@0.0.1536.960" timestamp="1578983899141" />
     <state x="368" y="147" key="#Project_Structure" timestamp="1578575843062">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1578575843062" />
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578901443313">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578976232606">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578901443313" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1578976232606" />
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578404678414">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -326,54 +367,54 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.960@0.0.1536.960" timestamp="1578900359792" />
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578478160728">
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578977788636">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578478160728" />
-    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578900052503">
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578977788636" />
+    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578977220254">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1578900052503" />
+    <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1578977220254" />
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578478657162">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578827545192">
+    <state x="349" y="83" key="CommitChangelistDialog2" timestamp="1578902324704">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578827545192" />
+    <state x="349" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578902324704" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog/0.0.1536.960@0.0.1536.960" timestamp="1578491193586" />
-    <state width="1494" height="361" key="GridCell.Tab.0.bottom" timestamp="1578902157147">
+    <state width="1494" height="287" key="GridCell.Tab.0.bottom" timestamp="1578996496270">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="361" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578902157147" />
-    <state width="1494" height="406" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578636892644" />
-    <state width="1494" height="361" key="GridCell.Tab.0.center" timestamp="1578902157145">
+    <state width="1494" height="287" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578996496270" />
+    <state width="1494" height="288" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
+    <state width="1494" height="287" key="GridCell.Tab.0.center" timestamp="1578996496268">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="361" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578902157145" />
-    <state width="1494" height="406" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578636892643" />
-    <state width="1494" height="361" key="GridCell.Tab.0.left" timestamp="1578902157144">
+    <state width="1494" height="287" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578996496268" />
+    <state width="1494" height="288" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
+    <state width="1494" height="287" key="GridCell.Tab.0.left" timestamp="1578996496268">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="361" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578902157144" />
-    <state width="1494" height="406" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578636892643" />
-    <state width="1494" height="361" key="GridCell.Tab.0.right" timestamp="1578902157146">
+    <state width="1494" height="287" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578996496268" />
+    <state width="1494" height="288" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578972613402" />
+    <state width="1494" height="287" key="GridCell.Tab.0.right" timestamp="1578996496269">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="361" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578902157146" />
-    <state width="1494" height="406" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578636892644" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1578900351622">
+    <state width="1494" height="287" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578996496269" />
+    <state width="1494" height="288" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
+    <state x="269" y="119" key="SettingsEditor" timestamp="1578967495456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578900351622" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578827547682">
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578967495456" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578902326743">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578827547682" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578902326743" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
