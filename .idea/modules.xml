@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyJava/MyJava.iml" filepath="$PROJECT_DIR$/MyJava/MyJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyKafka/MyKafka.iml" filepath="$PROJECT_DIR$/MyKafka/MyKafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyLearning.iml" filepath="$PROJECT_DIR$/MyLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyPython/MyPython.iml" filepath="$PROJECT_DIR$/MyPython/MyPython.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyScala/MyScala.iml" filepath="$PROJECT_DIR$/MyScala/MyScala.iml" />
       <module fileurl="file://$PROJECT_DIR$/MySpark/MySpark.iml" filepath="$PROJECT_DIR$/MySpark/MySpark.iml" />
     </modules>
