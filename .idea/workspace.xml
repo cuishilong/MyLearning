@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyPython/src/main/java/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/stream/stream/StreamPredictIfBirthForUserInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/stream/stream/StreamPredictIfBirthForUserInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyKafka/MyKafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/MyKafka.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
       <list>
         <option value="Package Object" />
         <option value="Scala Object" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,7 +49,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -70,20 +72,7 @@
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MLLatentDirichletAllocationDemo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ml.hanlp.tokenizer.Demo" />
-      <module name="MySpark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.hanlp.tokenizer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.demo">
     <configuration name="MLKMeanDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ml.clustering.MLKMeanDemo" />
       <module name="MySpark" />
@@ -136,20 +125,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyPython/src/main/java" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPython/src/main/java/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.StandardTokenizerWithSpark" />
       <item itemvalue="Application.StandardTokenizerWithSpark (1)" />
       <item itemvalue="Application.MLKMeanDemo" />
       <item itemvalue="Application.MLLatentDirichletAllocationDemo" />
+      <item itemvalue="Python.demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Application.MLLatentDirichletAllocationDemo" />
         <item itemvalue="Application.MLKMeanDemo" />
         <item itemvalue="Application.StandardTokenizerWithSpark (1)" />
         <item itemvalue="Application.StandardTokenizerWithSpark" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +197,8 @@
       <workItem from="1578827529558" duration="35000" />
       <workItem from="1578893812242" duration="1502000" />
       <workItem from="1578900190213" duration="5859000" />
-      <workItem from="1578966371059" duration="16180000" />
+      <workItem from="1578966371059" duration="17163000" />
+      <workItem from="1579006173450" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -328,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579001466426</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="cuishilong">
+      <created>1579002895505</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579002895505</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,14 +374,18 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1578404678414" />
-    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1578900359792">
+    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1579003078474">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.960@0.0.1536.960" timestamp="1578900359792" />
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578977788636">
+    <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.960@0.0.1536.960" timestamp="1579003078474" />
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579006499100">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1578977788636" />
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1579006499100" />
+    <state x="356" y="144" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1579006416897">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="356" y="144" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.960@0.0.1536.960" timestamp="1579006416897" />
     <state x="369" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578977220254">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -371,42 +394,46 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1579001466303">
+    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1579002895415">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579001466303" />
+    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579002895415" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog/0.0.1536.960@0.0.1536.960" timestamp="1578491193586" />
-    <state width="1494" height="240" key="GridCell.Tab.0.bottom" timestamp="1578999174804">
+    <state x="556" y="244" key="FileChooserDialogImpl" timestamp="1579006382162">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="240" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1578999174804" />
+    <state x="556" y="244" key="FileChooserDialogImpl/0.0.1536.960@0.0.1536.960" timestamp="1579006382162" />
+    <state width="1494" height="283" key="GridCell.Tab.0.bottom" timestamp="1579006513181">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="283" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579006513181" />
     <state width="1494" height="288" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
-    <state width="1494" height="240" key="GridCell.Tab.0.center" timestamp="1578999174803">
+    <state width="1494" height="283" key="GridCell.Tab.0.center" timestamp="1579006513180">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="240" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1578999174803" />
+    <state width="1494" height="283" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579006513180" />
     <state width="1494" height="288" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
-    <state width="1494" height="240" key="GridCell.Tab.0.left" timestamp="1578999174802">
+    <state width="1494" height="283" key="GridCell.Tab.0.left" timestamp="1579006513179">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="240" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1578999174802" />
+    <state width="1494" height="283" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579006513179" />
     <state width="1494" height="288" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1578972613402" />
-    <state width="1494" height="240" key="GridCell.Tab.0.right" timestamp="1578999174803">
+    <state width="1494" height="283" key="GridCell.Tab.0.right" timestamp="1579006513180">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="240" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578999174803" />
+    <state width="1494" height="283" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579006513180" />
     <state width="1494" height="288" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578972613403" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1578967495456">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1579006158766">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1578967495456" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1579001468592">
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1579006158766" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1579002897197">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579001468592" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579002897197" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -419,5 +446,8 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1578901210876" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1579006464670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyPython/src/main/java" />
   </component>
 </project>

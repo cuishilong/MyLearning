@@ -8,13 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MyHadoop" />
         <module name="MyHive" />
-        <module name="MyPython" />
+        <module name="MyKafka" />
         <module name="MyFlink" />
         <module name="MyHbase" />
-        <module name="MySpark" />
         <module name="MyScala" />
         <module name="MyJava" />
-        <module name="MyKafka" />
+        <module name="MySpark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
