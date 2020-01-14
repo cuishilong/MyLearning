@@ -1,4 +1,4 @@
-package ml.data
+package ml.mock
 
 import java.util.Random
 

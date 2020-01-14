@@ -1,4 +1,4 @@
-package ml.data
+package ml.mock
 
 import org.apache.spark.ml.classification.LogisticRegressionModel
 import org.apache.spark.ml.linalg.Vectors
