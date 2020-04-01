@@ -23,6 +23,7 @@ object DataWordProducer {
       , 3 -> "to"
       , 4 -> "china"
     )
+
     val len = seed.size
 
     var i = 0

@@ -9,14 +9,15 @@
         <module name="MyHadoop" />
         <module name="MyHive" />
         <module name="MyKafka" />
+        <module name="MyScala" />
         <module name="MyFlink" />
         <module name="MyHbase" />
-        <module name="MyScala" />
         <module name="MyJava" />
         <module name="MySpark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DMP" target="1.5" />
       <module name="MyFlink" target="1.5" />
       <module name="MyHadoop" target="1.5" />
       <module name="MyHbase" target="1.5" />

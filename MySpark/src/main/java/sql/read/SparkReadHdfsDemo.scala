@@ -10,7 +10,8 @@ object SparkReadHdfsDemo {
       .master("local[*]")
       .getOrCreate()
 
-    
+
+
     spark.stop()
   }
 }

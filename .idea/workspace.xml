@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/read/SparkReadHdfsDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_shims_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_kafka_0_10_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/DMP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/java/com/scfl/personal/OneIdMapping.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/java/com/scfl/sql/1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/java/com/scfl/test/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/java/com/scfl/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/java/com/scfl/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DMP/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyHadoop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataWordProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/src/main/java/producer/DataWordProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyKafka/target/classes/META-INF/MyKafka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/sql/read/SparkReadHdfsDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/read/SparkReadHdfsDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/META-INF/MySpark.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/pr/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/pr/.part-00000-a9e2bc09-9b0c-4183-8614-0541e5e5f4d3-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/pr/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/pr/part-00000-a9e2bc09-9b0c-4183-8614-0541e5e5f4d3-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/roc/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/roc/.part-00000-af81ebd2-e2d6-4ea3-92d5-89ef73574c82-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/roc/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/roc/part-00000-af81ebd2-e2d6-4ea3-92d5-89ef73574c82-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/user_info.csv/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/user_info.csv/.part-00000-f46092d0-ee62-401b-8298-0fcf6f446f5d-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/user_info.csv/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpark/target/classes/data/user_info.csv/part-00000-f46092d0-ee62-401b-8298-0fcf6f446f5d-c000.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +79,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,25 +115,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7 (MyLearning)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyKafka/src/main/java" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DMP/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
-      <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DMP/src/main/resources" />
+      <recent name="$PROJECT_DIR$/DMP/src/main/java/com/scfv/util" />
+      <recent name="$PROJECT_DIR$/MyKafka/src/main/java" />
+      <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
@@ -67,19 +146,31 @@
       <recent name="producer" />
       <recent name="stream" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MyKafka/src/main/java" />
-      <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MySpark/src/main/resources" />
+      <recent name="$PROJECT_DIR$/MySpark/src/main/resources/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdbcTest">
+  <component name="RunManager" selected="Application.OneIdMapping">
     <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="test.JdbcTest" />
       <module name="MySpark" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneIdMapping" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scfl.personal.OneIdMapping" />
+      <module name="DMP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scfl.personal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +193,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneIdMapping" />
         <item itemvalue="Application.JdbcTest" />
         <item itemvalue="Application.SparkReadJdbcDemo" />
       </list>
@@ -150,6 +242,21 @@
       <workItem from="1579224127252" duration="1690000" />
       <workItem from="1579313542009" duration="346000" />
       <workItem from="1579344729894" duration="780000" />
+      <workItem from="1579397764546" duration="1446000" />
+      <workItem from="1580523922806" duration="353000" />
+      <workItem from="1584428957820" duration="11000" />
+      <workItem from="1584428985230" duration="1366000" />
+      <workItem from="1584435711781" duration="283000" />
+      <workItem from="1584489746166" duration="1153000" />
+      <workItem from="1584586935635" duration="539000" />
+      <workItem from="1584921313798" duration="455000" />
+      <workItem from="1585008942108" duration="1837000" />
+      <workItem from="1585095377688" duration="9693000" />
+      <workItem from="1585183444735" duration="143000" />
+      <workItem from="1585183600315" duration="378000" />
+      <workItem from="1585184200249" duration="3527000" />
+      <workItem from="1585531421806" duration="1127000" />
+      <workItem from="1585613165962" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -340,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579261474688</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="cuishilong">
+      <created>1579397796230</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579397796230</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cuishilong">
+      <created>1584499821308</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584499821309</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,10 +472,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="147" key="#Inspections" timestamp="1579079860668">
+    <state x="368" y="147" key="#Inspections" timestamp="1585105452263">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="147" key="#Inspections/0.0.1536.960@0.0.1536.960" timestamp="1579079860668" />
+    <state x="368" y="147" key="#Inspections/0.0.1536.960@0.0.1536.960" timestamp="1585105452263" />
     <state x="368" y="147" key="#Notifications" timestamp="1579006790211">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -363,22 +484,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1578575843062" />
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579344873701">
+    <state x="368" y="147" key="#SQL_Dialects" timestamp="1585105468002">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1579344873701" />
-    <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579161169072">
+    <state x="368" y="147" key="#SQL_Dialects/0.0.1536.960@0.0.1536.960" timestamp="1585105468002" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585103326076">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="219" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579161169072" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1585103326076" />
+    <state x="329" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585106257050">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="329" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1585106257050" />
     <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1579003078474">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="500" y="405" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.960@0.0.1536.960" timestamp="1579003078474" />
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579006621754">
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585099095714">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1579006621754" />
+    <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1585099095714" />
     <state x="356" y="144" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1579006416897">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -391,10 +516,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="532" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.960@0.0.1536.960" timestamp="1578478657162" />
-    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1579261474570">
+    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1584499821051">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579261474570" />
+    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1584499821051" />
     <state x="100" y="100" width="1336" height="760" key="DiffContextDialog" timestamp="1578491193586">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -403,46 +528,46 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="556" y="244" key="FileChooserDialogImpl/0.0.1536.960@0.0.1536.960" timestamp="1579006382162" />
-    <state width="1494" height="303" key="GridCell.Tab.0.bottom" timestamp="1579271627267">
-      <screen x="0" y="23" width="1536" height="853" />
+    <state width="1494" height="322" key="GridCell.Tab.0.bottom" timestamp="1585129202292">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579243713969" />
-    <state width="1494" height="303" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1579271627267" />
-    <state width="1494" height="303" key="GridCell.Tab.0.center" timestamp="1579271627265">
-      <screen x="0" y="23" width="1536" height="853" />
+    <state width="1494" height="322" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1585129202292" />
+    <state width="1494" height="424" key="GridCell.Tab.0.bottom/0.23.1536.853@0.23.1536.853" timestamp="1585106436740" />
+    <state width="1494" height="322" key="GridCell.Tab.0.center" timestamp="1585129202291">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579243713967" />
-    <state width="1494" height="303" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1579271627265" />
-    <state width="1494" height="303" key="GridCell.Tab.0.left" timestamp="1579271627264">
-      <screen x="0" y="23" width="1536" height="853" />
+    <state width="1494" height="322" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1585129202291" />
+    <state width="1494" height="424" key="GridCell.Tab.0.center/0.23.1536.853@0.23.1536.853" timestamp="1585106436739" />
+    <state width="1494" height="322" key="GridCell.Tab.0.left" timestamp="1585129202289">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579243713967" />
-    <state width="1494" height="303" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1579271627264" />
-    <state width="1494" height="303" key="GridCell.Tab.0.right" timestamp="1579271627266">
-      <screen x="0" y="23" width="1536" height="853" />
+    <state width="1494" height="322" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1585129202289" />
+    <state width="1494" height="424" key="GridCell.Tab.0.left/0.23.1536.853@0.23.1536.853" timestamp="1585106436738" />
+    <state width="1494" height="322" key="GridCell.Tab.0.right" timestamp="1585129202291">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579243713968" />
-    <state width="1494" height="303" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1579271627266" />
+    <state width="1494" height="322" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1585129202291" />
+    <state width="1494" height="424" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1585106436739" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1579079896521">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1579079896521" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1579261520050">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1584499825038">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579261520050" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1584499825038" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578553581456">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.960@0.0.1536.960" timestamp="1578553581456" />
-    <state x="145" y="181" key="new project wizard" timestamp="1579006605373">
+    <state x="145" y="129" key="new project wizard" timestamp="1585040168917">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1579006605373" />
-    <state x="433" y="211" key="search.everywhere.popup" timestamp="1578901210876">
+    <state x="145" y="129" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1585040168917" />
+    <state x="433" y="211" key="search.everywhere.popup" timestamp="1585121827068">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1578901210876" />
+    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1585121827068" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyLearning$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1579006646120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyPython" />
