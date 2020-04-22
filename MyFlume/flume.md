@@ -1,9 +1,13 @@
 ## Flume
 
-http://flume.apache.org/releases/content/1.9.0/FlumeUserGuide.html#flume-sinks
+http://flume.apache.org/releases/content/1.9.0/FlumeUserGuide.html
 
 
 ### 一、配置文件
+
+```shell script
+bin/flume-ng agent --conf conf --conf-file example.conf --name a1 -Dflume.root.logger=INFO,console
+```
 
 #### 1、Source
 
@@ -171,3 +175,114 @@ a1.sinks.k1.kafka.producer.acks = 1
 # 配置默认kafka分区
 a1.sinks.k1.kafka.defaultPartitionId = -
 ```
+
+#### 4、Channel Selector
+
+channel选择器
+
+- a、Replicating
+
+source把数据副本形式发送给多个channel（每个channel都全部接收到source的所有数据）
+
+```shell script
+a1.sources = r1
+a1.channels = c1 c2 c3
+a1.sources.r1.selector.type = replicating
+# 多channel副本数据（每个channel都全部接收source的数据）
+a1.sources.r1.channels = c1 c2 c3
+a1.sources.r1.selector.optional = c3
+```
+
+- b、Mutiplexing
+
+source把数据分发形式发送给多个channel（每个channel接收到source的一部分数据，所有channel数据的加和量等于source发送的数据总量）
+
+```shell script
+a1.sources = r1
+a1.channels = c1 c2 c3 c4
+a1.sources.r1.selector.type = multiplexing
+a1.sources.r1.selector.header = state
+a1.sources.r1.selector.mapping.CZ = c1
+a1.sources.r1.selector.mapping.US = c2 c3
+a1.sources.r1.selector.default = c4
+```
+
+#### 5、Sink Processors
+
+sink处理器
+可选项：default,failover,load_balance
+
+- a、Default Sink Processor
+单个sink对单个channel
+无需任何配置
+
+- b、Failover Sink Processor
+
+sink设置优先级
+
+````shell script
+a1.sinkgroups = g1
+a1.sinkgroups.g1.sinks = k1 k2
+a1.sinkgroups.g1.processor.type = failover
+a1.sinkgroups.g1.processor.priority.k1 = 5
+a1.sinkgroups.g1.processor.priority.k2 = 10
+a1.sinkgroups.g1.processor.maxpenalty = 10000
+````
+
+- c、Load balancing Sink Processor
+
+```shell script
+a1.sinkgroups = g1
+a1.sinkgroups.g1.sinks = k1 k2
+a1.sinkgroups.g1.processor.type = load_balance
+a1.sinkgroups.g1.processor.backoff = true
+# round_robin, random
+a1.sinkgroups.g1.processor.selector = random
+```
+
+
+#### 6、Event Serializers
+
+事件序列化器
+
+- a、Text Serializer
+
+```shell script
+a1.sinks = k1
+a1.sinks.k1.type = file_roll
+a1.sinks.k1.channel = c1
+a1.sinks.k1.sink.directory = /var/log/flume
+a1.sinks.k1.sink.serializer = text
+a1.sinks.k1.sink.serializer.appendNewline = false
+```
+
+- b、"Flume Event" Avro Event Serializer
+
+```shell script
+a1.sinks.k1.type = hdfs
+a1.sinks.k1.channel = c1
+a1.sinks.k1.hdfs.path = /flume/events/%y-%m-%d/%H%M/%S
+a1.sinks.k1.serializer = avro_event
+a1.sinks.k1.serializer.compressionCodec = snappy
+```
+
+
+#### 7、Interceptors
+
+事件拦截器
+Flume has the capability to modify/drop events in-flight.
+
+- a、UUID Interceptor
+
+````shell script
+a1.sources.r1.interceptors.i1.type = org.apache.flume.sink.solr.morphline.UUIDInterceptor$Builder
+````
+
+- b、Regex Filtering Interceptor
+
+````shell script
+a1.sources.r1.interceptors.i1.type = regex_filter
+````
+
+
+
