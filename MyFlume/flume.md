@@ -3,7 +3,7 @@
 http://flume.apache.org/releases/content/1.9.0/FlumeUserGuide.html
 
 
-### 一、配置文件
+### 一、工程配置
 
 ```shell script
 bin/flume-ng agent --conf conf --conf-file example.conf --name a1 -Dflume.root.logger=INFO,console
