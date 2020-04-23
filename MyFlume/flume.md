@@ -240,7 +240,6 @@ a1.sinkgroups.g1.processor.backoff = true
 a1.sinkgroups.g1.processor.selector = random
 ```
 
-
 #### 6、Event Serializers
 
 事件序列化器
@@ -266,7 +265,6 @@ a1.sinks.k1.serializer = avro_event
 a1.sinks.k1.serializer.compressionCodec = snappy
 ```
 
-
 #### 7、Interceptors
 
 事件拦截器
@@ -283,6 +281,5 @@ a1.sources.r1.interceptors.i1.type = org.apache.flume.sink.solr.morphline.UUIDIn
 ````shell script
 a1.sources.r1.interceptors.i1.type = regex_filter
 ````
-
 
 
