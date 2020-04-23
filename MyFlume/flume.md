@@ -59,6 +59,22 @@ a1.sources.source1.batchSize = 5000
 a1.sources.source1.batchDurationMillis = 2000
 ```
 
+- d、Taildir Source
+
+```shell script
+a1.sources = r1
+a1.channels = c1
+a1.sources.r1.type = TAILDIR
+a1.sources.r1.channels = c1
+# checkpoint 位置
+a1.sources.r1.positionFile = /var/log/flume/taildir_position.json
+a1.sources.r1.filegroups = f1
+a1.sources.r1.filegroups.f1 = /var/log/test1/access.log
+a1.sources.r1.headers.f1.headerKey1 = value1
+a1.sources.r1.fileHeader = true
+a1.sources.ri.maxBatchCount = 1000
+```
+
 ### 2、Channel
 
 - a、Memory Channel
