@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyFlink/MyFlink.iml" filepath="$PROJECT_DIR$/MyFlink/MyFlink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFlume/MyFlume.iml" filepath="$PROJECT_DIR$/MyFlume/MyFlume.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyHadoop/MyHadoop.iml" filepath="$PROJECT_DIR$/MyHadoop/MyHadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyHbase/MyHbase.iml" filepath="$PROJECT_DIR$/MyHbase/MyHbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyHive/MyHive.iml" filepath="$PROJECT_DIR$/MyHive/MyHive.iml" />

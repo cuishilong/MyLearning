@@ -6,8 +6,9 @@ import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.api.java.utils.ParameterTool
 import org.apache.flink.streaming.api.CheckpointingMode
 import org.apache.flink.streaming.api.scala.{StreamExecutionEnvironment, _}
-import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010
+import org.apache.flink.streaming.connectors.kafka.{FlinkKafkaConsumer010, FlinkKafkaProducer010}
 import org.apache.flink.streaming.connectors.kafka.internals.KafkaTopicPartition
+
 import scala.collection.JavaConversions._
 
 object FlinkStreamWithKafkaDemo {
@@ -20,7 +21,7 @@ object FlinkStreamWithKafkaDemo {
      * flink检查点相关配置
      */
     // 检查点保存位置flink-conf.yaml 进行配置 state.checkpoints.dir: hdfs://namenode-host:port/flink-checkpoints
-    env.enableCheckpointing()
+    env.enableCheckpointing(1000,CheckpointingMode.EXACTLY_ONCE)
     val ckpConf = env.getCheckpointConfig
     // 检查点模式exactly-once or at-least-once
     ckpConf.setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE)
@@ -65,6 +66,8 @@ object FlinkStreamWithKafkaDemo {
       .map((_, 1))
       .keyBy(0)
       .sum(1)
+
+//    wordCount.addSink()
 
     wordCount.print()
 
