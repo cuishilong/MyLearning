@@ -2,65 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="cuishilong">
-      <change afterPath="$PROJECT_DIR$/MyHadoop/平台运维/hdfs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyHive/hive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyKafka/kafka.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/deskApp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/langconv.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/oracleWordsFreq.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/zh_wiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/hanlp/data/ddj/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/sql/udf/MyUdaf.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/sql/udf/SparkUdafDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/main/java/sql/sql/udf/SparkUdfDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/src/test/java/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark$$anonfun$1$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/features/chinese/HanlpStandardTokenizerWithSpark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/hanlp/data/ddj/Test$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/hanlp/data/ddj/Test$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/hanlp/data/ddj/Test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/ml/hanlp/data/ddj/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/read/SparkReadHdfsDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/read/SparkReadHdfsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/MyUdaf$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/MyUdaf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdafDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdafDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdfDemo$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdfDemo$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdfDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/sql/sql/udf/SparkUdfDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/stream/structstream/MLStructStreamPredictIfBirthForUserInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/test/JdbcTest$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/test/JdbcTest$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySpark/target/classes/test/JdbcTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithKafkaDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/src/main/java/stream/FlinkStreamWithKafkaDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/target/classes/stream/FlinkStreamWithKafkaDemo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFlume/src/conf/file_memory_file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlume/src/conf/file_memory_file.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataWordProducer$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataWordProducer$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataWordProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyKafka/target/classes/producer/DataWordProducer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPython/myml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyFlink/src/main/java/flink.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyPython/mypython/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPython/my-python/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/MySpark/src/main/java/ml/MLCollaborativeFilteringDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +258,10 @@
       <workItem from="1587640241806" duration="1572000" />
       <workItem from="1587708462243" duration="3155000" />
       <workItem from="1587862149002" duration="11000" />
-      <workItem from="1587955581028" duration="4061000" />
+      <workItem from="1587955581028" duration="4166000" />
+      <workItem from="1588295230616" duration="317000" />
+      <workItem from="1588387269934" duration="58000" />
+      <workItem from="1588387370730" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -578,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587636887021</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="cuishilong">
+      <created>1587975204140</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1587975204140</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,10 +571,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1585099095714" />
-    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1587975119175">
+    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1587975203890">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1587975119175" />
+    <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1587975203890" />
     <state width="1494" height="323" key="GridCell.Tab.0.bottom" timestamp="1587457510606">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -637,10 +595,10 @@
     </state>
     <state width="1494" height="323" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1587457510606" />
     <state width="1494" height="374" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1587021806167" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1587636888520">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1587975206502">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1587636888520" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1587975206502" />
     <state x="100" y="100" width="1336" height="760" key="dock-window-1" timestamp="1586743828037">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
