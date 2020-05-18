@@ -1,16 +1,27 @@
-## 数据仓库
 
-### 一、数据接入
-全量
-增量
-实时
-批量
-拉链表
 
-### 二、数据仓库
-数据分层
-事实表/维表设计
+```shell script
+hive
+# 从控制台接收一个sql语句
+-e "sql"
 
-### 三、数据服务
+# 从一个sql文件接收一个sql
+-f
+
+# 接收一个自定义变量
+-d
+
+# 显示详情
+-v
+```
+
+```shell script
+hive -v -d dt='20200518' -f demo.sql
+```
+
+```hiveql
+-- dt变量引用上面的自定义变量
+select * from table where dt = ${dt}
+```
 
 
