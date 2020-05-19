@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="cuishilong">
-      <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/deskApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/langconv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/oracleWordsFreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyPython/my-ml/text/ancient/zh_wiki.py" afterDir="false" />
+    <list default="true" id="82443679-8ba6-4058-9149-bda38a887dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyHadoop/sqoop/demos/mysql_hdfs_incr_sqoop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyHadoop/sqoop/sqoop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyHive/1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPython/mypython/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPython/my-python/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHive/数据仓库.md" beforeDir="false" afterPath="$PROJECT_DIR$/MyHive/数据仓库.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,6 +260,9 @@
       <workItem from="1588295230616" duration="317000" />
       <workItem from="1588387269934" duration="58000" />
       <workItem from="1588387370730" duration="211000" />
+      <workItem from="1588567507206" duration="114000" />
+      <workItem from="1589339104048" duration="894000" />
+      <workItem from="1589780484985" duration="4255000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1578372723232</created>
@@ -536,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587975204140</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="cuishilong">
+      <created>1588567600330</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1588567600330</updated>
+    </task>
+    <task id="LOCAL-00041" summary="cuishilong">
+      <created>1589785198146</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1589785198146</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,17 +578,19 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1587015622806" />
-    <state x="329" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585106257050">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="288" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589785968981">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
+    <state x="288" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1344.840@0.0.1344.840" timestamp="1589785968981" />
     <state x="329" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1585106257050" />
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585099095714">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="158" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1585099095714" />
-    <state x="343" y="83" key="CommitChangelistDialog2" timestamp="1587975203890">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="300" y="47" key="CommitChangelistDialog2" timestamp="1589785197853">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
+    <state x="300" y="47" key="CommitChangelistDialog2/0.0.1344.840@0.0.1344.840" timestamp="1589785197853" />
     <state x="343" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1587975203890" />
     <state width="1494" height="323" key="GridCell.Tab.0.bottom" timestamp="1587457510606">
       <screen x="0" y="0" width="1536" height="960" />
@@ -595,9 +612,10 @@
     </state>
     <state width="1494" height="323" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1587457510606" />
     <state width="1494" height="374" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1587021806167" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1587975206502">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="322" y="193" key="Vcs.Push.Dialog.v2" timestamp="1589785200791">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
+    <state x="322" y="193" key="Vcs.Push.Dialog.v2/0.0.1344.840@0.0.1344.840" timestamp="1589785200791" />
     <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1587975206502" />
     <state x="100" y="100" width="1336" height="760" key="dock-window-1" timestamp="1586743828037">
       <screen x="0" y="0" width="1536" height="960" />
