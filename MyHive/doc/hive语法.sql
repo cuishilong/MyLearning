@@ -14,3 +14,5 @@ create external table tmp.tmp_tmp
     -- row format delimited fields terminated by '|' stored as parquet
     -- row format delimited fields terminated by '|' stored as sequencefile
     location '/user/hadoop/warehouse/log_test';
+
+
