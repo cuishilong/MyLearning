@@ -63,14 +63,14 @@ object StreamWithKafkaOfRedisOffsets {
       rdd
     })
 
-    //此处为自己的业务逻辑
-    // 。。。
+    //。。。此处为自己的业务逻辑
 
     stream2
       .foreachRDD(rdd => {
         this.synchronized {
-
+          //。。。输出操作
           // 更新offset
+          // 获取临时offset的key执行更新操作
           val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
           saveOffsets2Redis(offsetRanges)
         }
