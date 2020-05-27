@@ -49,10 +49,31 @@ object StreamWithKafkaOfRedisOffsets {
       ConsumerStrategies.Subscribe[String, String](topicSet, kafkaParams, fromOffsets)
     )
 
+    /**
+     * 关于offset手动提交问题
+     * 1、用transform函数把offset先存到临时redis的key里面
+     * 2、处理业务逻辑
+     * 3、在输出造作结束后，取出临时offset再存到正式offset的redis的key里面
+     * 4、输出造作代码块可以加锁，synchronize
+     */
+
+    stream.transform(rdd => {
+      val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+      val offsetJsonStr = offsetRange2JsonStr(offsetRanges)
+      rdd
+    })
+
     stream
       .foreachRDD(rdd => {
-        val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
-        saveOffsets2Redis(offsetRanges)
+        this.synchronized{
+          //此处为自己的业务逻辑
+
+          // 。。。
+
+          // 更新offset
+          val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+          saveOffsets2Redis(offsetRanges)
+        }
       })
 
     ssc.start()
@@ -62,6 +83,13 @@ object StreamWithKafkaOfRedisOffsets {
   def saveOffsets2Redis(offsets: Array[OffsetRange]): Unit = {
     //offset:{topic-partition1:offset1,topic-partition2:offset}
     val jedis = new Jedis("localhost", 6379)
+    val redisValue = offsetRange2JsonStr(offsets)
+    println(s"${redis_offsets_key} : ${redisValue}")
+    jedis.set(redis_offsets_key, redisValue)
+    jedis.close()
+  }
+
+  def offsetRange2JsonStr(offsets: Array[OffsetRange]): String = {
     val jsonObj = new JSONObject()
     offsets
       .foreach(offset => {
@@ -72,10 +100,7 @@ object StreamWithKafkaOfRedisOffsets {
         jsonObj.put(s"${topic}-${partition}", untilOffset)
         println(s"fromOffset : ${fromOffset}")
       })
-    val redisValue = jsonObj.toString()
-    println(s"${redis_offsets_key} : ${redisValue}")
-    jedis.set(redis_offsets_key, redisValue)
-    jedis.close()
+    jsonObj.toString()
   }
 
   def getLatestOffsetsFromRedis(redisKey: String): Map[TopicPartition, Long] = {
