@@ -57,18 +57,18 @@ object StreamWithKafkaOfRedisOffsets {
      * 4、输出造作代码块可以加锁，synchronize
      */
 
-    stream.transform(rdd => {
+    val stream2 = stream.transform(rdd => {
       val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
       val offsetJsonStr = offsetRange2JsonStr(offsetRanges)
       rdd
     })
 
-    stream
-      .foreachRDD(rdd => {
-        this.synchronized{
-          //此处为自己的业务逻辑
+    //此处为自己的业务逻辑
+    // 。。。
 
-          // 。。。
+    stream2
+      .foreachRDD(rdd => {
+        this.synchronized {
 
           // 更新offset
           val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
