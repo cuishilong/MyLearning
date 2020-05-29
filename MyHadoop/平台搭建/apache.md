@@ -1,4 +1,4 @@
-# BI项目集群搭建
+# apache大数据平台搭建
 
 1、使用3台虚拟机即可
 
@@ -17,6 +17,7 @@
 ```shell
 # 注意：可以在root用户下进行以下操作
 # ifcfg-ens33
+# /etc/sysconfig/network-scripts/ifcfg-ens33
 BOOTPROTO=static
 IPADDR=192.168.137.201
 PREFIX=24
@@ -24,10 +25,10 @@ GATEWAY=192.168.137.2
 DNS=192.168.137.2
 ONBOOT=yes
 
-# resolv.conf
+# /etc/resolv.conf
 nameserver 192.168.137.2
 
-# hostname
+# /etc/hostname
 s201
 ```
 
@@ -50,7 +51,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 ssh-keygen
 
 # 修改.ssh目录权限
-chmod 700 .ssh
+chmod 700 ~/.ssh
 
 # 分发公钥，分发到集群所有服务器
 ssh-copy-id centos@localhost
@@ -93,23 +94,17 @@ systemctl status ntpd
 
 ```shell
 # 基础包
-yum install -y 
-lrzsz 
-openssh-server 
-rsync 
---gcc 
---vim 
-net-tools
-wget
+yum install -y lrzsz openssh-server rsync gcc vim net-tools wget
 ```
 
-#### 7、hosts文件修改
+#### 7、/etc/hosts文件修改
 
 ```shell
-192.168.137.201 s201
-192.168.137.202 s202
-192.168.137.203 s203
-192.168.137.204 s204
+172.16.215.135 hdp135
+172.16.215.136 hdp136
+172.16.215.137 hdp137
+172.16.215.138 hdp138
+172.16.215.139 hdp139
 ```
 
 
@@ -306,7 +301,6 @@ service mysqld status
 
 ### 3、Mysql相关配置
 
-
 ```mysql
 // 获取超级用户root的密码
 grep 'temporary password' /var/log/mysqld.log
@@ -328,16 +322,18 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
 // 修改其他服务器可登录
 use mysql;
 update user set host ='%' where user ='root';
+
+CREATE DATABASE `hive_meta` CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
 ### 4、其他信息
 
 ```mysql
 // 一些基础操作
-CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
 update user set host = '%' where user = 'root';
 
-grant all privileges on *.* to 'hive'@'%' identified by 'hive';
+grant all privileges on *.* to 'root'@'%' identified by 'root';
 grant all privileges on *.* to 'root'@'%' identified by 'root' WITH GRANT OPTION;
 
 flush privileges;
@@ -363,7 +359,7 @@ cp hive-env.sh.template hive-env.sh
 ```xml
 <property>
     <name>javax.jdo.option.ConnectionURL</name>
-    <value>jdbc:mysql://192.168.137.201:3306/hive001?createDatabaseIfNotExist=true</value>
+    <value>jdbc:mysql://hdp137:3306/hive_meta?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=UTF-8</value>
 </property>
 <property>
     <name>javax.jdo.option.ConnectionDriverName</name>
@@ -383,8 +379,8 @@ cp hive-env.sh.template hive-env.sh
 </property>
 
 <!-- 修改以下变量为常量 -->
-${system:java.io.tmpdir}=/home/centos/hive
-${system:user.name}=centos
+${system:java.io.tmpdir}=/home/admin/app/hive/tmp
+${system:user.name}=admin
 ```
 
 #### hive-env.sh
@@ -421,6 +417,13 @@ export PATH=$PATH:$HIVE_HOME/bin
 
 ```shell
 schematool -initSchema -dbType mysql
+
+-- 处理中文注释问题
+alter table COLUMNS_V2 modify column COMMENT varchar(256) character set utf8;
+alter table TABLE_PARAMS modify column PARAM_VALUE varchar(4000) character set utf8;
+alter table PARTITION_PARAMS modify column PARAM_VALUE varchar(4000) character set utf8;
+alter table PARTITION_KEYS modify column PKEY_COMMENT varchar(4000) character set utf8;
+alter table INDEX_PARAMS modify column PARAM_VALUE varchar(4000) character set utf8;
 ```
 
 
