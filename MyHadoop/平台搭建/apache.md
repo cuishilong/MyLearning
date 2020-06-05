@@ -479,6 +479,11 @@ spark.yarn.jars hdfs://s201/apps/spark/lib/*
 
 ```shell
 > ln -s /apps/hive/conf/hive-site.xml /apps/spark/conf/hive-site.xml
+# 如果出现兼容问题，则修改hive-site.xml
+<property>
+	<name>hive.metastore.schema.verification</name>
+	<value>false</value>
+</property>
 
 > cp /soft/hive/lib/mysql-connector-java-5.1.15.jar /soft/spark/jars/
 ```
