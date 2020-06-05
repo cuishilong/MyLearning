@@ -2,7 +2,7 @@ package test
 
 import util.ScalaUtil
 
-object JdbcTest {
+object JdbcPpstDemo {
   def main(args: Array[String]): Unit = {
     val conn = ScalaUtil.getMysqlConn()
     conn.setAutoCommit(false)
@@ -13,6 +13,11 @@ object JdbcTest {
       ppst.setString(2, "Arica")
       ppst.addBatch()
     }
+
+    this.synchronized{
+
+    }
+
     ppst.executeBatch()
     conn.commit()
     ppst.close()
