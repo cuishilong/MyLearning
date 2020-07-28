@@ -8,11 +8,12 @@
     <artifactId>MyFlink</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <flink.version>1.9.1</flink.version>
+        <flink.version>1.11.0</flink.version>
         <scala.version>2.11</scala.version>
         <kafka.version>2.3.1</kafka.version>
 
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -22,8 +23,29 @@
 
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka-0.10_${scala.version}</artifactId>
+            <artifactId>flink-connector-kafka_${scala.version}</artifactId>
             <version>${flink.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-jdbc_${scala.version}</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.bahir</groupId>
+            <artifactId>flink-connector-redis_${scala.version}</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
+
 </project>
