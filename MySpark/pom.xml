@@ -12,7 +12,7 @@
         <scala.version>2.11</scala.version>
         <mysql.driver>5.1.38</mysql.driver>
         <kafka.version>2.3.1</kafka.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <jedis.version>3.1.0</jedis.version>
         <mysql.driver>5.1.38</mysql.driver>
 
