@@ -11,7 +11,7 @@
         <spark.version>2.4.4</spark.version>
         <scala.version>2.11</scala.version>
         <mysql.driver>5.1.38</mysql.driver>
-        <kafka.version>2.3.1</kafka.version>
+        <kafka.version>2.6.3</kafka.version>
         <fastjson.version>1.2.58</fastjson.version>
         <jedis.version>3.1.0</jedis.version>
         <mysql.driver>5.1.38</mysql.driver>
